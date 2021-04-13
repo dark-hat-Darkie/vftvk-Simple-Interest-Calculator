@@ -12,6 +12,8 @@ function compute()
 
     if(!p){
         res.innerHTML="Please enter Principal Amount!";
+    } else if (p == 0) {
+        res.innerHTML="Please enter a Positive Number!";
     } else {
         res.innerHTML=`if you deposit ${p} <br>
                     at an interest ${r}% <br>
