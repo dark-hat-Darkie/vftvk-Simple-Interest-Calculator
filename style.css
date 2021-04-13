@@ -1,4 +1,35 @@
-body {background-color:tan;}
-h1{color:green;}
+body {background-color:black;}
+h1{color:grey;}
 
+.wrapper {
+    width: 30vw;
+    background-color: aliceblue;
+    margin: auto;
+    padding: 3rem;
+    border-radius: 2rem;
 
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    margin-top: 1rem;
+}
+
+label {
+    min-width: 100px;
+}
+
+input {
+    flex: 1;
+}
+.rate {
+    flex: 1;
+}
+
+#years {
+    margin-right: 50rem;
+}
